@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react"
 import { useState } from "react"
 
+
 const ModalComp = ({ data, setData, dataEdit, isOpen, onClose }) => {
     const [ name, setName ] = useState(dataEdit.name || "");
     const [email, setEmail ] = useState(dataEdit.email || "");
